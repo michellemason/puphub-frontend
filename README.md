@@ -10,13 +10,15 @@ This appliation is meant to be a dog boarding site where users can easily add th
 
 Users **must** register an account to be able to view full features.
 
-### Use the application via a test user
+## Use the application via a test user
 
 Login to the site with these credentials to preview its capabilities:
+
 **Username:** walnut
+
 **Password:** password
 
-### Technologies used 
+## Technologies used 
 
 - HTML5 & CSS
 - React 
@@ -28,14 +30,14 @@ Login to the site with these credentials to preview its capabilities:
 - Bootstrap
 - JSX
 
-### Features implemented
+## Features implemented
 
 - Login & register functionality
 - Authorization for users to view pages, add dogs, add bookings, and update their information
 - Delete bookings and dogs
 - Select information via React forms
   
-### Tests
+## Tests
 
 Tests for different sections can be found accompanying the file that they are testing. To run tests is very simple:
 
@@ -46,7 +48,7 @@ Tests for different sections can be found accompanying the file that they are te
   frontend $ jest
   ```
 
-### Standard user flow
+## Standard user flow
 
 When you first arrive at the site, you will be prompted to login or register as a new user.
 
@@ -54,7 +56,7 @@ Upon logging in or registering, you will be brought to your profile page where y
 
 Users can then view their dogs, view all the dogs in the database, view their bookings, and add new dogs or bookings. 
 
-### API
+## API
 
 I created my own API using PostgreSQL. There are 3 different tables: a **users** table, a **dogs** table, and a **bookings** table. 
 
@@ -62,7 +64,7 @@ The **dogs** table references the **users** table based on the users username. T
 
 The **bookings** table references the **users** table in order to add the booking for the correct user. Only that users dogs will be visible to book for a booking from the form.
 
-### Continuation of this project
+## Continuation of this project
 
 I have different features and plans to upgrade this project. As I continue my work, I will update here with the new additions. Some goals of mine are to implement a more creative UI, add the capabilities for day boarding including drop off & pick up times, and also a more elaborate dog page. 
 
