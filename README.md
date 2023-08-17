@@ -10,10 +10,10 @@ This appliation is meant to be a dog boarding site where users can easily add th
 
 Users **must** register an account to be able to view full features.
 
-### Use the application via a Test user
+### Use the application via a test user
 
 Login to the site with these credentials to preview its capabilities:
-**Username:** test
+**Username:** walnut
 **Password:** password
 
 ### Technologies used 
